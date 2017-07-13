@@ -1,0 +1,36 @@
+//Footer section
+.ba-footer {
+  padding: 35px 0;
+  background-color: #262626;
+  &__company {
+    color: #b9b9b9;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    float: left;
+    margin: 0;
+  }
+  &__logo {
+    color: #b9b9b9;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    float: left;
+    margin: 0 0 0 295px;
+  }
+  &__author {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: #b9b9b9;
+    font-weight: 300;
+    float: left;
+    margin: 0 0 0 350px;
+    &-color {
+      color: #ff2b58;
+      font-weight: 700;
+    }
+  }
+}

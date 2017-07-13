@@ -1,0 +1,65 @@
+.ba-blog-flex-container {
+  max-width: 1175px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.ba-flex-item {
+  width: 370px;
+  height: 310px;
+  padding: 30px 20px 20px;
+  text-align: left;
+  &:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  &__green-smoothies {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 20%, rgba(255, 255, 255, 0.1) 40%), url('../../assets/img/gallery/green-smoothies.jpg') 50% no-repeat;
+  }
+  &__growing-food {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 20%, rgba(255, 255, 255, 0.1) 40%), url('../../assets/img/gallery/growing-food.jpg') 50% no-repeat;
+  }
+  &__perticides-food {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 20%, rgba(255, 255, 255, 0.1) 40%), url('../../assets/img/gallery/perticides-food.jpg') 50% no-repeat;
+  }
+  &__date {
+    display: block;
+    width: 80px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 25px;
+    border: 1px solid #262626;
+    border-radius: 5px;
+    background-color: #262626;
+    opacity: 0.5;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 100px;
+    &-month {
+      color: #ffffff;
+      font-family: 'Raleway', sans-serif;
+      font-size: 21px;
+      font-weight: 800;
+      line-height: 25px;
+      text-transform: uppercase;
+    }
+  }
+  &__title {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  &__author {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: 300;
+  }
+}

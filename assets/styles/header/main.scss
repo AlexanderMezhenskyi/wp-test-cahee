@@ -1,0 +1,27 @@
+@import "menu.scss";
+@import "banner.scss";
+
+.ba-logo {
+  &__image {
+    display: block;
+  }
+}
+
+.ba-fresh {
+  min-height: 100vh;
+  background: #FFF url(../img/fresh.jpg) 50%;
+  background-size: cover;
+  padding: 50px 0 120px;
+  position: relative;
+}
+
+.ba-scroll {
+  position: absolute;
+  bottom: 69px;
+  left: 50%;
+  width: 24px;
+  margin-left: -12px;
+  height: 40px;
+  background: url(../img/scroll.png) no-repeat 50%;
+  transition: transform .2s ease-in;
+}

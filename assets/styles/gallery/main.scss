@@ -1,0 +1,75 @@
+//gallery section
+.ba-gallery {
+  padding: 100px 0 120px;
+  background-color: #ffe92f;
+  text-align: center;
+}
+
+.ba-gallery-flex-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ba-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &-higher {
+    height: 550px;
+    margin-bottom: 30px;
+  }
+  &-below {
+    height: 400px;
+    margin-bottom: 50px;
+  }
+  .ba-peach {
+    max-width: 770px;
+    &:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+  }
+  .ba-milk {
+    max-width: 570px;
+    &:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+  }
+  .ba-hurma {
+    max-width: 570px;
+    &:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+.ba-column {
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .ba-blueberries {
+    height: 260px;
+    &:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+  }
+  .ba-blackberry {
+    height: 260px;
+    &:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+.ba-gallery-footer__btn {
+  width: 200px;
+  height: 55px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: #5585a2;
+}

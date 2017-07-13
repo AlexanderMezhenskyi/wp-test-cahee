@@ -1,0 +1,55 @@
+.ba-contact-form {
+  width: 500px;
+  &__input {
+    width: 500px;
+    height: 50px;
+    background-color: #00c4c4;
+    opacity: 0.5;
+    border: none;
+    margin-bottom: 15px;
+    outline-style: none;
+    padding-left: 20px;
+
+    &::-webkit-input-placeholder {
+      color: #ffffff;
+      font-family: 'Raleway', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 25px;
+    }
+    &:focus {
+      background-color: #00c4c4;
+      opacity: 1;
+      border-left: 5px solid #355b82;
+      padding-left: 15px;
+    }
+
+  }
+  &__textarea {
+    width: 500px;
+    height: 250px;
+    background-color: #00c4c4;
+    opacity: 0.5;
+    border: none;
+    outline-style: none;
+    padding-left: 20px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    &:focus {
+      background-color: #00c4c4;
+      opacity: 1;
+      border-left: 5px solid #355b82;
+      padding-left: 15px;
+    }
+    &::-webkit-input-placeholder {
+      color: #ffffff;
+      font-family: 'Raleway', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 25px;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import "form.scss";
+@import "contact-info.scss";
+
+//Contact Section
+.ba-contact {
+  padding: 100px 0 120px;
+  background: url("../../assets/img/gallery/contact-bg.jpg") 50% no-repeat;
+  background-size: cover;
+  text-align: center;
+  .ba-title {
+    color: #262626;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 48px;
+  }
+  &__description {
+    color: #262626;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+}
+
+.ba-contact-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 46px;
+}
+
+

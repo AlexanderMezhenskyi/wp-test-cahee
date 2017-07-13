@@ -1,0 +1,91 @@
+body{
+  font:300 17px/1.58 "Raleway", Arial, sans-serif;
+  color: #262626;
+}
+
+/* Typography */
+h1,h2,h3,h4,h5,h6 {
+  font:700 30px/1 "Raleway", Arial, sans-serif;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+h1 {
+  font-size: 90px;
+}
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 50px;
+}
+h4 {
+  font-size: 40px;
+}
+p {
+  margin: 0 0 28px;
+
+}
+a,
+input[type="submit"],
+input[type="button"],
+button{
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+  display: inline-block;
+  background-color: #ff6033;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  padding: 0 25px;
+  min-height: 55px;
+  font: inherit;
+  line-height: 55px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  color: #FFF;
+  font-size: 20px;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+  background-color: #F43500;
+}
+input[type="submit"]:active,
+input[type="button"]:active,
+button:active,
+.ba-button:active{
+  position: relative;
+  top: 1px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}

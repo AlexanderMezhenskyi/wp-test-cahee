@@ -1,0 +1,22 @@
+@import "flex-container.scss";
+//Blog section
+.ba-blog {
+  padding: 100px 0 120px;
+  text-align: center;
+  background-color: #b07cf7;
+  .ba-title {
+    color: #ffffff;
+  }
+  &__description {
+    color: #ffffff;
+  }
+}
+
+.ba-blog-footer {
+  &__btn {
+    width: 200px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f72b3b;
+  }
+}

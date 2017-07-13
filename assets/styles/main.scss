@@ -1,0 +1,40 @@
+@import "fonts.scss";
+@import "normalize.scss";
+@import "layout.scss";
+@import "controls.scss";
+@import "variables.scss";
+@import "header/main.scss";
+@import "about/main.scss";
+@import "services/main.scss";
+@import "gallery/main.scss";
+@import "subscribe/main.scss";
+@import "blog/main.scss";
+@import "contact/main.scss";
+@import "footer/main.scss";
+
+.ba-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1200px;
+}
+
+.ba-section {
+  padding: 90px 0;
+}
+
+.ba-grid + .ba-grid {
+  margin-top: 30px;
+}
+
+.ba-grid:not(.ba-grid-nopad) > [class*="ba-width-"] {
+  padding-left: 30px;
+}
+
+.ba-grid {
+  margin-left: -30px;
+}
+
+.ba-title {
+  font-size: 90px;
+}
+
